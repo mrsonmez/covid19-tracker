@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <div className="github">
-        <a href="github.com/mrsonmez">
+        <a href="https://github.com/mrsonmez">
           <h1>github.com/mrsonmez</h1>
         </a>
       </div>
