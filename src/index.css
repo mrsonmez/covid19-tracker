@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container > div {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.chartContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.chartOne {
+  width: 400px;
+  color: black;
+  background-color: #b0d6fd;
+  word-wrap: break-word;
+  padding: 20px;
+  margin: 15px;
+  height: 250px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%),
+    0px 16px 10px 0px #576bfe;
+  border-radius: 4px;
+}
+.chartTwo {
+  width: 400px;
+  color: black;
+  background-color: #ddf5e2;
+  word-wrap: break-word;
+  padding: 20px;
+  margin: 15px;
+  height: 250px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%),
+    0px 16px 10px 0px #6efa70;
+  border-radius: 4px;
+}
+.chartThree {
+  width: 400px;
+  color: black;
+  background-color: #f3d5d5;
+  word-wrap: break-word;
+  padding: 20px;
+  margin: 15px;
+  height: 250px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%),
+    0px 16px 10px 0px #f66969;
+  border-radius: 4px;
+}
+.chartFour {
+  width: 400px;
+  color: black;
+  background-color: #f3e1c8;
+  word-wrap: break-word;
+  padding: 20px;
+  margin: 15px;
+  height: 250px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%),
+    0px 16px 10px 0px #f2e564;
+  border-radius: 4px;
+}
+
+.values {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.334;
+  letter-spacing: 0em;
+}
+
+.github {
+  margin-bottom: 105px;
+}
+.github > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
