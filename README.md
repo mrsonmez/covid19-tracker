@@ -2,7 +2,7 @@
 
 This project is Covid-19 Tracker with redux
 
-## Thanks to Mathdroid for api
+## Thanks to [Mathdroid](https://github.com/mathdroid/) for api
 [API Link](https://covid19.mathdro.id/api/)
 
 ## See the project online
